@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ruleset name="University of Washington, Department of Enrollment Management Coding Standard (PSR2 Superset)">
+
+    <description>
+        PHP coding standard for the University of Washington Department of Enrollment Management web applications.
+
+        This standard is an extension of PSR2.
+    </description>
+
+
+    <!-- Include all sniffs in the PSR2 standard. -->
+    <rule ref="PSR2"/>
+
+    <!--<rule ref="Squiz.Arrays.ArrayDeclaration"/>-->
+    <rule ref="Squiz.PHP.CommentedOutCode"/>
+    <rule ref="Squiz.Commenting.FunctionComment"/>
+    <rule ref="Squiz.Commenting.ClassComment"/>
+    <rule ref="Squiz.Commenting.VariableComment"/>
+
+</ruleset>
