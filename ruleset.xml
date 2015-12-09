@@ -10,10 +10,16 @@
     <!-- Include all sniffs in the PSR2 standard. -->
     <rule ref="PSR2"/>
 
+    <!-- Include some sniffs from the Squiz standard. -->
     <!--<rule ref="Squiz.Arrays.ArrayDeclaration"/>-->
     <rule ref="Squiz.PHP.CommentedOutCode"/>
-    <rule ref="Squiz.Commenting.FunctionComment"/>
-    <rule ref="Squiz.Commenting.ClassComment"/>
     <rule ref="Squiz.Commenting.VariableComment"/>
 
+    <rule ref="Squiz.Commenting.ClassComment">
+        <exclude name="Squiz.Commenting.ClassComment.TagNotAllowed"/>
+    </rule>
+
+    <rule ref="Squiz.Commenting.FunctionComment">
+        <exclude name="Squiz.Commenting.FunctionComment.MissingParamComment"/>
+    </rule>
 </ruleset>
