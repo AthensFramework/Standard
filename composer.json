@@ -1,0 +1,7 @@
+{
+  "name": "uwdoem/standard",
+  "description": "Coding standard for University of Washington, Department of Enrollment Management php web applications.",
+  "require": {
+    "squizlabs/php_codesniffer": "2.*"
+  }
+}
