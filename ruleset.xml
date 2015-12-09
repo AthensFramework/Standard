@@ -7,7 +7,6 @@
         This standard is an extension of PSR2.
     </description>
 
-
     <!-- Include all sniffs in the PSR2 standard. -->
     <rule ref="PSR2"/>
 
