@@ -1,3 +1,5 @@
+[![Latest Stable Version](https://poser.pugx.org/uwdoem/standard/v/stable)](https://packagist.org/packages/uwdoem/standard)
+
 # Standard
 
 This `ruleset.xml` contains the University of Washington, Department of Enrollment Management Php web-application coding standard, for use with [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer).
