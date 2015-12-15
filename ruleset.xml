@@ -21,5 +21,6 @@
 
     <rule ref="Squiz.Commenting.FunctionComment">
         <exclude name="Squiz.Commenting.FunctionComment.MissingParamComment"/>
+        <exclude name="Squiz.Commenting.FunctionComment.TypeHintMissing"/>
     </rule>
 </ruleset>
