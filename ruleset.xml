@@ -7,10 +7,10 @@
         This standard is an extension of PSR2.
     </description>
 
+
     <!-- Include all sniffs in the PSR2 standard. -->
     <rule ref="PSR2"/>
 
-    <!-- Include some sniffs from the Squiz standard. -->
     <!--<rule ref="Squiz.Arrays.ArrayDeclaration"/>-->
     <rule ref="Squiz.PHP.CommentedOutCode"/>
     <rule ref="Squiz.Commenting.VariableComment"/>
@@ -21,6 +21,18 @@
 
     <rule ref="Squiz.Commenting.FunctionComment">
         <exclude name="Squiz.Commenting.FunctionComment.MissingParamComment"/>
-        <exclude name="Squiz.Commenting.FunctionComment.TypeHintMissing"/>
+        <exclude name="Squiz.Commenting.FunctionComment.ScalarTypeHintMissing"/>
     </rule>
+
+    <rule ref="Squiz.Operators.ComparisonOperatorUsage" />
+
+    <rule ref="Squiz.WhiteSpace.FunctionSpacing">
+        <properties>
+            <property name="spacing" value="1"/>
+        </properties>
+    </rule>
+    <rule ref="Squiz.WhiteSpace.FunctionSpacing.After">
+        <severity>0</severity>
+    </rule>
+
 </ruleset>
