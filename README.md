@@ -10,7 +10,7 @@ To download the standard, include `uwdoem/standard` if your `composer.json` dev 
 ```
 "require-dev": {
     ...
-    "uwdoem/standard": "*",
+    "uwdoem/standard": "1.*",
     ...
   }
 ```
