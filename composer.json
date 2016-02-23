@@ -1,6 +1,6 @@
 {
-  "name": "uwdoem/standard",
-  "description": "Coding standard for University of Washington, Department of Enrollment Management php web applications.",
+  "name": "athens/standard",
+  "description": "PHP code standard for the Athens Framework.",
   "require": {
     "squizlabs/php_codesniffer": "2.*"
   }

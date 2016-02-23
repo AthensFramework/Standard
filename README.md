@@ -1,23 +1,23 @@
-[![Latest Stable Version](https://poser.pugx.org/uwdoem/standard/v/stable)](https://packagist.org/packages/uwdoem/standard)
+[![Latest Stable Version](https://poser.pugx.org/athens/standard/v/stable)](https://packagist.org/packages/athens/standard)
 
 # Standard
 
-This `ruleset.xml` contains the University of Washington, Department of Enrollment Management Php web-application coding standard, for use with [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer).
+This `ruleset.xml` contains the Athens Framework code standard, for use with [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer). Projects which use the Athens Framework are welcome to use this same code standard.
 
 # Use
 
-To download the standard, include `uwdoem/standard` if your `composer.json` dev requirements:
+To download the standard, include `athens/standard` if your `composer.json` dev requirements:
 ```
 "require-dev": {
     ...
-    "uwdoem/standard": "1.*",
+    "athens/standard": "1.*",
     ...
   }
 ```
 
 Once you have updated your composer requirements, you'll be able to issue the following command from your project root:
 ```
-./vendor/bin/phpcs --standard=./vendor/uwdoem/standard/ruleset.xml .
+./vendor/bin/phpcs --standard=./vendor/athens/standard/ruleset.xml .
 ```
 
 See the [PHP CodeSniffer docs](https://github.com/squizlabs/PHP_CodeSniffer/wiki) for more information, including excluding directories from analysis.

@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<ruleset name="University of Washington, Department of Enrollment Management Coding Standard (PSR2 Superset)">
+<ruleset name="Athens Framework Code Standard">
 
     <description>
-        PHP coding standard for the University of Washington Department of Enrollment Management web applications.
+        PHP code standard for the Athens Framework.
 
-        This standard is an extension of PSR2.
+        This standard is an extension of PSR2, with the exception of control structure spacing.
     </description>
 
 
